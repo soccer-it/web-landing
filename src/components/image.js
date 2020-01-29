@@ -1,5 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+
+// Components
 import Img from "gatsby-image"
 
 /*
