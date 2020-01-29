@@ -28,6 +28,7 @@ module.exports = {
       },
     },
     `gatsby-alias-imports`,
+    `gatsby-plugin-sass`
     // `gatsby-plugin-offline`,
   ],
 }
