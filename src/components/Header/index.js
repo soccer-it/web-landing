@@ -1,13 +1,30 @@
 import { Link } from "gatsby"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header>
-    <div>
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
-    </div>
+import logoImg from 'images/logo.svg'
+
+const Header = () => (
+  <header className="header">
+    <img src={logoImg} alt="" />
+    <nav className="nav">
+      <ul className="list">
+        <li className="item">
+          <Link to="/">o que é?</Link>
+        </li>
+        <li className="item">
+          <Link to="/">por quê?</Link>
+        </li>
+        <li className="item">
+          <Link to="/">ferramentas</Link>
+        </li>
+        <li className="item">
+          <button className="button">
+            Usar
+            <div className="icon arrow-right"></div>
+          </button>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 

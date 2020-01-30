@@ -1,12 +1,14 @@
 import React from "react"
 
 import Structure from "components/Structure"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Image from "components/Image"
+import Seo from "components/Seo"
+
+
 
 const IndexPage = () => (
   <Structure>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <div>
       <Image />
     </div>
