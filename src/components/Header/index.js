@@ -20,7 +20,7 @@ const Header = () => (
         <li className="item">
           <button className="button">
             Usar
-            <div className="icon arrow-right"></div>
+            <spam className="icon arrow-right"></spam>
           </button>
         </li>
       </ul>
