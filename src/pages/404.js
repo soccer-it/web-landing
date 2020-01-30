@@ -3,7 +3,7 @@ import React from "react"
 import Structure from "components/Structure"
 import Seo from "components/Seo"
 
-const NotFoundPage = () => (
+const NotFound = () => (
   <Structure>
     <Seo title="404: Not found" />
     <h1>NOT FOUND</h1>
@@ -11,4 +11,4 @@ const NotFoundPage = () => (
   </Structure>
 )
 
-export default NotFoundPage
+export default NotFound

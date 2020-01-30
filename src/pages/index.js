@@ -1,18 +1,14 @@
 import React from "react"
 
 import Structure from "components/Structure"
-import Image from "components/Image"
+import Hero from "components/Hero"
 import Seo from "components/Seo"
 
-
-
-const IndexPage = () => (
+const Home = () => (
   <Structure>
     <Seo title="Home" />
-    <div>
-      <Image />
-    </div>
+    <Hero />
   </Structure>
 )
 
-export default IndexPage
+export default Home
