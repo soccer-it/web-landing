@@ -6,6 +6,7 @@ import Header from "components/Header"
 import Footer from "components/Footer"
 
 // Style
+import "styles/index.scss"
 import "./structure.scss"
 
 const Layout = ({ children }) => {

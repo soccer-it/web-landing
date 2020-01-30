@@ -43,7 +43,7 @@ const HowUse = () => {
       <div className="container">
         <button className="button">
           começar a usar
-          <spam className="icon arrow-right"></spam>
+          <span className="icon arrow-right"></span>
         </button>
       </div>
       <div className="fans-illustration"></div>
