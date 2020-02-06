@@ -4,9 +4,12 @@
     flex-wrap: wrap;
     .title {
       color: #008E4C;
-      margin: 0px auto 150px auto;
       max-width: 700px;
       width: 100%;
+      
+      @media (min-width: 1280px) {
+        margin: 0px auto 150px auto;
+      }
     }
 
     .holder {
@@ -21,18 +24,23 @@
       @media (min-width: 1280px) {
         flex-direction: row;
         width: 50%;
-      }
-  
-      .paragraph {
         padding: 0px 60px;
       }
+  
     }
 
     .icon {
       border-color: black;
-      margin: 100px auto;
-      width: 25px;
+      width: 15px;
+      height: 15px;
+      margin: 30px auto;
+
+      
+      @media (min-width: 1280px) {
+        margin: 100px auto;
+        width: 25px;
       height: 25px;
+      }
     }
   }
 }

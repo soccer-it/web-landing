@@ -1,21 +1,32 @@
 .how-use {
-  padding-bottom: 500px;
-  background-image: url('../../images/fans.svg');
+  padding-bottom: 100px;
+  background-image: url("../../images/fans.svg");
   background-repeat: no-repeat;
-  background-position: 0 110%;
-  background-size: 110%;
+  background-position: 0 105%;
+  background-size: 130%;
   padding-top: 80px;
+
+  @media (min-width: 1280px) {
+    padding-bottom: 500px;
+    background-position: 0 110%;
+  }
 
   .container {
     display: flex;
 
     .holder {
-      padding: 0px 50px;
+      @media (min-width: 1280px) {
+        padding: 0px 50px;
+      }
     }
 
     .subtitle {
       color: white;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
+
+      @media (min-width: 1280px) {
+        margin-bottom: 100px;
+      }
     }
 
     .list {
@@ -25,15 +36,29 @@
         margin-bottom: 50px;
         .numeral {
           font-weight: 800;
-          font-size: 80px;
-          opacity: .3;
+          font-size: calc(80px / 2);
+          opacity: 0.3;
           width: 15%;
         }
 
         .paragraph {
-          font-size: 40px;
-          line-height: 50px;
+          font-size: cacl(40px/2);
+          line-height: calc(50px / 2);
           width: 85%;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        .item {
+          .numeral {
+            font-size: 80px;
+          }
+
+          .paragraph {
+            font-size: 40px;
+            line-height: 50px;
+            width: 85%;
+          }
         }
       }
     }

@@ -5,8 +5,8 @@ const ContentBlock = ({ title = "", paragraphs = [], customClass = "" }) => {
     <>
       <h1 className="title">{title}</h1>
       {paragraphs.map((item, index) => (
-        <div className="holder">
-          <p className="paragraph" key={index}>
+        <div className="holder" key={index}>
+          <p className="paragraph" >
             {item}
           </p>
         </div>
