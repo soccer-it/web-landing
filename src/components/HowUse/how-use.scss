@@ -1,7 +1,42 @@
 .how-use {
-  padding-bottom: 400px;
+  padding-bottom: 500px;
   background-image: url('../../images/fans.svg');
   background-repeat: no-repeat;
   background-position: 0 110%;
   background-size: 110%;
+  padding-top: 80px;
+
+  .container {
+    display: flex;
+
+    .holder {
+      padding: 0px 50px;
+      width: 50%;
+    }
+
+    .subtitle {
+      color: white;
+      margin-bottom: 100px;
+    }
+
+    .list {
+      .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        .numeral {
+          font-weight: 800;
+          font-size: 80px;
+          opacity: .3;
+          width: 15%;
+        }
+
+        .paragraph {
+          font-size: 40px;
+          line-height: 50px;
+          width: 85%;
+        }
+      }
+    }
+  }
 }

@@ -1,3 +1,7 @@
+.section {
+  position: relative;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1248px;
@@ -40,16 +44,22 @@
   margin: auto;
   cursor: pointer;
 
-  .icon {
-    width: 10px;
-    height: 10px;
-    margin: auto 0 auto 10px;
-    border: 2px solid white;
+  
+}
 
-    &.arrow-right {
-      border-bottom: none;
-      border-left: none;
-      transform: rotate(45deg);
-    }
+.icon {
+  width: 10px;
+  height: 10px;
+  margin: auto 0 auto 10px;
+  border: 2px solid white;
+  border-bottom: none;
+  border-left: none;
+
+  &.arrow-right {
+    transform: rotate(45deg);
+  }
+
+  &.arrow-bottom {
+    transform: rotate(135deg);
   }
 }

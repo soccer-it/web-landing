@@ -1,0 +1,15 @@
+.explanation {
+  .title {
+    margin: 200px 0;
+  }
+
+  .content {
+    display: flex;
+
+    .paragraph {
+      padding: 0px 60px;
+      width: 50%;
+      margin: 0;
+    }
+  }
+}

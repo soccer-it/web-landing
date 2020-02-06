@@ -17,7 +17,7 @@ const Headache = () => {
             "Soccerit é um site, que se comporta como um app. E sem esses problemas de memória, compatibilidade, e tempo de download.",
           ]}
         />
-        <div className="arrow"></div>
+        <div className="icon arrow-bottom"></div>
       </div>
     </section>
   )
