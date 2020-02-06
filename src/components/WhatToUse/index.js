@@ -7,7 +7,7 @@ const WhatToUse = () => {
   return (
     <section className="what-to-use">
       <div className="container">
-        <h1 className="title">O que você pode usar</h1>
+        <h1 className="title">o que você pode usar</h1>
       </div>
       <ul className="list">
         <li className="item">avisos de gol</li>
