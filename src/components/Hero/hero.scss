@@ -1,0 +1,22 @@
+.hero {
+  .container {
+    .title {
+      color: #008E4C;
+      max-width: 790px;
+      margin: 50px auto 100px;
+      font-weight: 800;
+  
+      strong {
+        color: #07E17B;
+      }
+    }
+
+    .image-featured {
+      margin: 0 auto;
+      display: block;
+      width: 480px;
+      max-width: 100%;
+    }
+
+  }
+}

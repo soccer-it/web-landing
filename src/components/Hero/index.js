@@ -12,7 +12,7 @@ const Hero = () => {
         <h1 className="title">
           ser torcedor é <strong>cantar</strong>
         </h1>
-        <img src={appImage} alt="" />
+        <img src={appImage} className="image-featured" />
       </div>
     </section>
   )

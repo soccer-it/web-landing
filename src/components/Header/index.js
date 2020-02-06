@@ -1,12 +1,17 @@
 import { Link } from "gatsby"
 import React from "react"
 
+
+// Images
 import logoImg from "images/logo.svg"
+
+// Styles
+import './header.scss'
 
 const Header = () => (
   <header className="header">
     <div className="container">
-      <img src={logoImg} alt="" />
+      <img src={logoImg} alt="Logo Soccerit" className="logo" />
       <nav className="nav">
         <ul className="list">
           <li className="item">

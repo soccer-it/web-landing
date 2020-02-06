@@ -1,0 +1,31 @@
+.header {
+  > .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav {
+    width: 100%;
+    padding: 0 20px;
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .item {
+        margin: 0 20px;
+
+        a {
+          text-decoration: none;
+          font-weight: 500;
+          color: #A2A2A2;
+        }
+      }
+    }
+  }
+
+  .logo {
+    display: inline-block;
+    width: 200px;
+  }
+}
