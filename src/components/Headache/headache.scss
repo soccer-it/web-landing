@@ -1,16 +1,29 @@
 .headache {
   .container {
+    display: flex;
+    flex-wrap: wrap;
     .title {
       color: #008E4C;
       margin: 0px auto 150px auto;
       max-width: 700px;
+      width: 100%;
     }
 
     .holder {
       display: flex;
+    }
 
-      .paragraph {
+    .holder {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+      @media (min-width: 1280px) {
+        flex-direction: row;
         width: 50%;
+      }
+  
+      .paragraph {
         padding: 0px 60px;
       }
     }

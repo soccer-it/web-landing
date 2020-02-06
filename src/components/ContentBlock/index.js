@@ -4,13 +4,13 @@ const ContentBlock = ({ title = "", paragraphs = [], customClass = "" }) => {
   return (
     <>
       <h1 className="title">{title}</h1>
-      <div className="holder">
-        {paragraphs.map((item, index) => (
+      {paragraphs.map((item, index) => (
+        <div className="holder">
           <p className="paragraph" key={index}>
             {item}
           </p>
-        ))}
-      </div>
+        </div>
+      ))}
     </>
   )
 }
