@@ -7,13 +7,13 @@ import appDark from "images/appDark.svg"
 
 const HowUse = () => {
   return (
-    <section className="how-use">
+    <section className="how-use background-featured">
       <div className="container">
         <div className="holder">
           <img src={appDark} alt="" />
         </div>
         <div className="holder">
-          <h1 className="title">
+          <h1 className="subtitle">
             como
             <br />
             usar

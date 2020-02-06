@@ -6,7 +6,9 @@ import "./what-to-use.scss"
 const WhatToUse = () => {
   return (
     <section className="what-to-use">
-      <h1 className="title">O que você pode usar</h1>
+      <div className="container">
+        <h1 className="title">O que você pode usar</h1>
+      </div>
       <ul className="list">
         <li className="item">avisos de gol</li>
         <li className="item">escalação ao vivo</li>

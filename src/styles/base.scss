@@ -1,0 +1,54 @@
+.container {
+  margin: 0 auto;
+  max-width: 1248px;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.title {
+  font-size: 128px;
+  line-height: 153px;
+  letter-spacing: 2.6px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 108px;
+  line-height: 113px;
+  letter-spacing: 2.19px;
+  font-weight: bolder;
+}
+
+.paragraph {
+  font-size: 40px;
+  line-height: 73px;
+  font-weight: 500;
+}
+
+.button {
+  position: relative;
+  border: none;
+  background-color: black;
+  padding: 15px 30px;
+  color: white;
+  text-transform: lowercase;
+  font-weight: bold;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  .icon {
+    width: 10px;
+    height: 10px;
+    margin: auto 0 auto 10px;
+    border: 2px solid white;
+
+    &.arrow-right {
+      border-bottom: none;
+      border-left: none;
+      transform: rotate(45deg);
+    }
+  }
+}
