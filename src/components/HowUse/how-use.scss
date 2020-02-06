@@ -9,6 +9,11 @@
   @media (min-width: 1280px) {
     padding-bottom: 500px;
     background-position: 0 110%;
+    background-size: 105%;
+  }
+
+  @media (min-width: 1440px) {
+    padding-bottom: 700px;
   }
 
   .container {
