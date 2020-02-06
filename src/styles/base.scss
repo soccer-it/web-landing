@@ -6,28 +6,60 @@
   margin: 0 auto;
   max-width: 1248px;
   width: 100%;
-  padding: 50px 0px;
+  padding: 50px 20px;
+  flex-direction: column; 
+
+  .holder {
+    width: 100%;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 50px 0;
+    flex-direction: row;
+
+    .holder {
+      width: 50%;
+    }
+  }
 }
 
 .title {
-  font-size: 128px;
-  line-height: 153px;
-  letter-spacing: 2.6px;
+  font-size: (128 / 2)px;
+  line-height: (153/2)px;
+  letter-spacing: (2.6/2)px;
   font-weight: bolder;
   text-align: center;
+
+  @media (min-width: 1280px) {
+    font-size: 128px;
+    line-height: 153px;
+    letter-spacing: 2.6px;
+  }
 }
 
 .subtitle {
-  font-size: 108px;
-  line-height: 113px;
-  letter-spacing: 2.19px;
+  font-size: (108 / 2)px;
+  line-height: (113 / 2)px;
+  letter-spacing: (2.19 / 2)px;
   font-weight: bolder;
+
+  @media (min-width: 1280px) {
+    font-size: 108px;
+    line-height: 113px;
+    letter-spacing: 2.19px;
+  }
 }
 
 .paragraph {
-  font-size: 40px;
-  line-height: 73px;
+  font-size: (40/2)px;
+  line-height: (73/2)px;
   font-weight: 500;
+
+  @media (min-width: 1280px) {
+    font-size: 40px;
+    line-height: 73px;
+    font-weight: 500;
+  }
 }
 
 .button {
@@ -44,13 +76,14 @@
   margin: auto;
   cursor: pointer;
 
-  
+  .icon {
+    margin: auto 0 auto 10px;
+  }
 }
 
 .icon {
   width: 10px;
   height: 10px;
-  margin: auto 0 auto 10px;
   border: 2px solid white;
   border-bottom: none;
   border-left: none;
