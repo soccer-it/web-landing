@@ -1,17 +1,20 @@
+/* eslint-disable import/first */
+
 import React, { useEffect } from "react"
-import SmoothScroll from "smooth-scroll"
 
 // Images
 import logoImg from "images/logo.svg"
 
-const isClient = window && document
+const isClient = () => !!(window && document)
 
 // Styles
 import "./header.scss"
 
 const Header = () => {
   useEffect(() => {
-    isClient && new SmoothScroll('a[href*="#"]')
+    if (!isClient()) return
+    const SmoothScroll = require("smooth-scroll")
+    new SmoothScroll('a[href*="#"]')
   }, [])
   return (
     <header className="header">
