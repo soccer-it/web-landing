@@ -1,15 +1,17 @@
 import React, { useEffect } from "react"
-import SmoothScroll from 'smooth-scroll'
+import SmoothScroll from "smooth-scroll"
 
 // Images
 import logoImg from "images/logo.svg"
+
+const isClient = window && document
 
 // Styles
 import "./header.scss"
 
 const Header = () => {
   useEffect(() => {
-    new SmoothScroll('a[href*="#"]')
+    isClient && new SmoothScroll('a[href*="#"]')
   }, [])
   return (
     <header className="header">
@@ -56,17 +58,17 @@ const Header = () => {
         <nav className="nav">
           <ul className="list">
             <li className="item">
-              <a  data-scroll href="#explanation">
+              <a data-scroll href="#explanation">
                 o que é?
               </a>
             </li>
             <li className="item">
-              <a  data-scroll href="#howuse">
+              <a data-scroll href="#howuse">
                 como usar?
               </a>
             </li>
             <li className="item">
-              <a  data-scroll href="#whattouse">
+              <a data-scroll href="#whattouse">
                 features
               </a>
             </li>
