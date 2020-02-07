@@ -6,9 +6,12 @@
       color: #008E4C;
       max-width: 700px;
       width: 100%;
+      margin-bottom: 50px;
+      padding: 0 30px;
       
       @media (min-width: 1280px) {
         margin: 0px auto 150px auto;
+        padding: 0;
       }
     }
 
@@ -33,7 +36,7 @@
       border-color: black;
       width: 15px;
       height: 15px;
-      margin: 30px auto;
+      margin: 100px auto 50px;
 
       
       @media (min-width: 1280px) {
