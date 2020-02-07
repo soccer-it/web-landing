@@ -1,4 +1,8 @@
 .explanation {
+  padding-top: 200px;
+  @media (min-width: 1280px) {
+    padding-top: 0;
+  }
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +11,12 @@
 
       @media (min-width: 1280px) {
         margin: 200px 0;
+      }
+    }
+
+    .paragraph {
+      @media (min-width: 1280px) {
+        text-align: left;
       }
     }
   }

@@ -1,10 +1,9 @@
 .how-use {
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background-image: url("../../images/fans.svg");
   background-repeat: no-repeat;
   background-position: 0 105%;
   background-size: 130%;
-  padding-top: 80px;
 
   @media (min-width: 1280px) {
     padding-bottom: 500px;
@@ -18,19 +17,64 @@
 
   .container {
     display: flex;
+    flex-direction: row;
+
+    &:first-of-type {
+      padding: 0;
+
+      @media (min-width: 1280px) {
+        padding: 100px 0px;
+      }
+    }
 
     .holder {
+      
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+
+      &:first-of-type {
+        width: 30%;
+        padding-right: 50px;
+      }
+
+      &:last-of-type {
+        width: 70%;
+        padding: 0 50px;
+      }
+
       @media (min-width: 1280px) {
-        padding: 0px 50px;
+        &:first-of-type, &:last-of-type {
+          width: 50%;
+          padding: 0px 50px;
+
+        }
+      }
+
+      .image-featured {
+        transform: translateX(-30px);
+        height: 500px;
+        width: auto;
+        max-width: none;
+
+        @media (min-width: 1280px) {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
       }
     }
 
     .subtitle {
       color: white;
       margin-bottom: 50px;
+      line-height: 40px;
 
       @media (min-width: 1280px) {
         margin-bottom: 100px;
+        line-height: 113px;
+        font-size: 108px;
       }
     }
 
@@ -38,18 +82,32 @@
       .item {
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+        padding-left: 50px;
+        position: relative;
+        
+        @media (min-width: 1280px) {
+          margin-bottom: 50px;
+          padding-left: 100px;
+        }
+        
         .numeral {
           font-weight: 800;
-          font-size: calc(80px / 2);
+          font-size: 50px;
           opacity: 0.3;
-          width: 15%;
+          position: absolute;
+          left: 0px;
         }
 
         .paragraph {
-          font-size: cacl(40px/2);
-          line-height: calc(50px / 2);
-          width: 85%;
+          font-size: 16px;
+          line-height: 23px;
+          text-align: left;
+          
+          @media (min-width: 1280px) {
+            font-size: calc(40px/2);
+            line-height: calc(50px / 2);
+          }
         }
       }
 

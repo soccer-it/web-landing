@@ -10,7 +10,7 @@ const HowUse = () => {
     <section className="how-use background-featured">
       <div className="container">
         <div className="holder">
-          <img src={appDark} alt="" />
+          <img src={appDark} className="image-featured" alt="" />
         </div>
         <div className="holder">
           <h1 className="subtitle">
