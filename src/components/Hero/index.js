@@ -22,7 +22,6 @@ const Hero = () => {
         "pistolar",
         "paixão",
       ],
-      typeSpeed: 50,
       typeSpeed: 80,
       backSpeed: 50,
       shuffle: true,

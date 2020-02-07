@@ -5,7 +5,7 @@ import "./what-to-use.scss"
 
 const WhatToUse = () => {
   return (
-    <section className="what-to-use">
+    <section className="what-to-use"  id="whattouse">
       <div className="container">
         <h1 className="title">o que você pode usar</h1>
       </div>

@@ -7,7 +7,7 @@ import appDark from "images/appDark.svg"
 
 const HowUse = () => {
   return (
-    <section className="how-use background-featured">
+    <section className="how-use background-featured" id="howuse">
       <div className="container">
         <div className="holder">
           <img src={appDark} className="image-featured" alt="" />

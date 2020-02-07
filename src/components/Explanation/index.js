@@ -8,7 +8,7 @@ import "./explanation.scss"
 
 const Explanation = () => {
   return (
-    <section className="explanation background-featured">
+    <section className="explanation background-featured" id="explanation">
       <div className="container">
         <ContentBlock
           title="feito de torcedor para torcedor"
