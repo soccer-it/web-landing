@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 
-import Typed from 'typed.js'
+import Typed from "typed.js"
 
 // Style
 import "./hero.scss"
@@ -9,23 +9,34 @@ import appImage from "images/appWhite.svg"
 
 const Hero = () => {
   useEffect(() => {
-    console.log('oi')
-    const typed = new Typed('.hero .featured-text', {
-      strings: ["gritar", "torcer", "pular", 'xingar', "vibrar", "se exaltar", "ficar puto", "pistolar", "paixão"],
+    new Typed(".hero .featured-text", {
+      strings: [
+        "gritar",
+        "cantar",
+        "torcer",
+        "pular",
+        "xingar",
+        "vibrar",
+        "se exaltar",
+        "ficar puto",
+        "pistolar",
+        "paixão",
+      ],
       typeSpeed: 50,
       typeSpeed: 80,
       backSpeed: 50,
       shuffle: true,
       backDelay: 3000,
       loop: true,
-      showCursor: false
-    });
+      showCursor: false,
+    })
   }, [])
   return (
     <section className="hero">
       <div className="container">
         <h1 className="title">
-          ser torcedor é <strong className="featured-text">cantar</strong>
+          
+          ser torcedor <br/>é <strong className="featured-text"> </strong>
         </h1>
         <img src={appImage} className="image-featured" />
       </div>

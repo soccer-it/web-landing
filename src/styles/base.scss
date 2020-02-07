@@ -24,9 +24,9 @@
 }
 
 .title {
-  font-size: (128 / 2)px;
-  line-height: (153/2)px;
-  letter-spacing: (2.6/2)px;
+  font-size: calc(128px/2);
+  line-height: calc(153px/2);
+  letter-spacing: calc(2px/2);
   font-weight: bolder;
   text-align: center;
 
@@ -38,21 +38,21 @@
 }
 
 .subtitle {
-  font-size: (108 / 2)px;
-  line-height: (113 / 2)px;
-  letter-spacing: (2.19 / 2)px;
+  font-size: calc(108px/2);
+  line-height: calc(113px/2);
+  letter-spacing: calc(2.19px/2);
   font-weight: bolder;
 
   @media (min-width: 1280px) {
     font-size: 108px;
     line-height: 113px;
-    letter-spacing: 2.19px;
+    letter-spacing: 2px;
   }
 }
 
 .paragraph {
-  font-size: (40/2)px;
-  line-height: (73/2)px;
+  font-size: calc(40px/2);
+  line-height: calc(73px/2);
   font-weight: 500;
 
   @media (min-width: 1280px) {
