@@ -7,12 +7,12 @@ const WhatToUse = () => {
   return (
     <section className="what-to-use"  id="whattouse">
       <div className="container">
-        <h1 className="title">o que você pode usar</h1>
+        <h1 className="title">recursor disponíveis</h1>
       </div>
       <ul className="list">
         <li className="item">avisos de gol</li>
         <li className="item">escalação ao vivo</li>
-        <li className="item">alertas de trasmissão</li>
+        <li className="item">alertas de transmissão</li>
         <li className="item">notícias do seu time</li>
         <li className="item">curiosidades</li>
         <li className="item">informações do clube</li>
@@ -23,7 +23,7 @@ const WhatToUse = () => {
         <li className="item">informações do clube</li>
         <li className="item">avisos de gol</li>
         <li className="item">escalação ao vivo</li>
-        <li className="item">alertas de trasmissão</li>
+        <li className="item">alertas de transmissão</li>
       </ul>
       <ul className="list">
         <li className="item">venda de ingressos</li>
@@ -36,7 +36,7 @@ const WhatToUse = () => {
       <ul className="list">
         <li className="item">avisos de gol</li>
         <li className="item">escalação ao vivo</li>
-        <li className="item">alertas de trasmissão</li>
+        <li className="item">alertas de transmissão</li>
         <li className="item">venda de ingressos</li>
         <li className="item">avisos de gol</li>
         <li className="item">newsletter</li>
@@ -47,7 +47,7 @@ const WhatToUse = () => {
         <li className="item">informações do clube</li>
         <li className="item">avisos de gol</li>
         <li className="item">escalação ao vivo</li>
-        <li className="item">alertas de trasmissão</li>
+        <li className="item">alertas de transmissão</li>
       </ul>
       <ul className="list">
         <li className="item">venda de ingressos</li>
@@ -55,7 +55,7 @@ const WhatToUse = () => {
         <li className="item">newsletter</li>
         <li className="item">avisos de gol</li>
         <li className="item">escalação ao vivo</li>
-        <li className="item">alertas de trasmissão</li>
+        <li className="item">alertas de transmissão</li>
       </ul>
       
     </section>

@@ -62,22 +62,22 @@ const Header = () => {
           <ul className="list">
             <li className="item">
               <a data-scroll href="#explanation">
-                o que é?
+                o que é
               </a>
             </li>
             <li className="item">
               <a data-scroll href="#howuse">
-                como usar?
+                como usar
               </a>
             </li>
             <li className="item">
               <a data-scroll href="#whattouse">
-                features
+                recursos disponíveis
               </a>
             </li>
             <li className="item">
               <button className="button">
-                Usar
+                quero experimentar
                 <span className="icon arrow-right"></span>
               </button>
             </li>

@@ -59,9 +59,12 @@
         max-width: none;
 
         @media (min-width: 1280px) {
-          width: 100%;
+          width: auto;
           max-width: 100%;
+          max-height: 80vh;
+          transform: translateX(0);
           height: auto;
+          margin: auto;
         }
       }
     }

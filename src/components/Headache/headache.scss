@@ -29,6 +29,12 @@
         width: 50%;
         padding: 0px 60px;
       }
+
+      .paragraph {
+        @media (min-width: 1280px) {
+          text-align: left;
+        }
+      }
   
     }
 

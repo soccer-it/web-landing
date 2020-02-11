@@ -13,8 +13,8 @@ const Explanation = () => {
         <ContentBlock
           title="feito de torcedor para torcedor"
           paragraphs={[
-            "Aqui no soccerit, é tudo feito por torcedores e para torcedores. Sem enrolação e rodeio, é tudo na lata.",
-            "Com conteúdo totalmente personalidade e de acordo com o seu clube. E aqui tem clubismo sim!",
+            "aqui no soccerit, o clubismo é liberado! Respire o amor pelo seu time em todos os momentos e em qualquer lugar.",
+            "conteúdo personalizado e simplificado. Sem consumir a memória do seu celular. Gratuito. É assim, na lata! Ou melhor, no ângulo!",
           ]}
         />
       </div>

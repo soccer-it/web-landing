@@ -11,10 +11,10 @@ const Headache = () => {
     <section className="headache">
       <div className="container">
         <ContentBlock
-          title="sem dor de cabeça"
+          title="faça parte do time"
           paragraphs={[
-            "Nada de baixar aplicativos que ocupam memória no seu celular e que você usa apenas um vez na vida.",
-            "Soccerit é um site, que se comporta como um app. E sem esses problemas de memória, compatibilidade, e tempo de download.",
+            "finalmente, uma plataforma que fala a sua língua e que te entende. Somos apaixonados por futebol, igual a você.",
+            "sem complicações, o soccer.it funciona semelhante a um app, mas sem precisar instalar nada.",
           ]}
         />
         <div className="icon arrow-bottom"></div>

@@ -14,9 +14,9 @@ const HowUse = () => {
         </div>
         <div className="holder">
           <h1 className="subtitle">
-            como
+            entre
             <br />
-            usar
+            no jogo
           </h1>
           <ul className="list">
             <li className="item">
@@ -26,23 +26,28 @@ const HowUse = () => {
             <li className="item">
               <strong className="numeral">2</strong>
               <p className="paragraph">
-                salve na área de trabalho do seu celular.
+                escolha o seu time de coração e cadastre-se.
               </p>
             </li>
             <li className="item">
               <strong className="numeral">3</strong>
-              <p className="paragraph">use como um aplicativo nativo.</p>
+              <p className="paragraph">
+                salve o endereço na área de trabalho do seu celular.
+              </p>
             </li>
             <li className="item">
               <strong className="numeral">4</strong>
-              <p className="paragraph">e sucesso!</p>
+              <p className="paragraph">
+                pronto! É gol! A partir de agora, você receberá tudo de mais
+                importante para torcer pelo seu time
+              </p>
             </li>
           </ul>
         </div>
       </div>
       <div className="container">
         <button className="button">
-          começar a usar
+          comece a usar
           <span className="icon arrow-right"></span>
         </button>
       </div>
