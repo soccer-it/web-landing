@@ -76,8 +76,8 @@
 
       @media (min-width: 1280px) {
         margin-bottom: 100px;
-        line-height: 113px;
-        font-size: 108px;
+        line-height: 90px;
+        font-size: 80px;
       }
     }
 
@@ -107,23 +107,24 @@
           line-height: 23px;
           text-align: left;
           
-          @media (min-width: 1280px) {
-            font-size: calc(40px/2);
-            line-height: calc(50px / 2);
-          }
+          // @media (min-width: 1280px) {
+          //   font-size: 16px;
+          //   line-height: calc(50px / 2);
+          // }
         }
       }
 
       @media (min-width: 1280px) {
         .item {
+          padding-left: 80px;
           .numeral {
-            font-size: 80px;
+            font-size: 60px;
           }
 
           .paragraph {
-            font-size: 40px;
-            line-height: 50px;
-            width: 85%;
+            font-size: 30px;
+            line-height: 40px;
+            width: 90%;
           }
         }
       }

@@ -11,12 +11,17 @@
 
       @media (min-width: 1280px) {
         margin: 200px 0;
+        font-size: 80px;
+        line-height: 90px;
+        padding: 0 300px;
       }
     }
 
     .paragraph {
       @media (min-width: 1280px) {
         text-align: left;
+        line-height: 65px;
+        padding: 0 30px;
       }
     }
   }
