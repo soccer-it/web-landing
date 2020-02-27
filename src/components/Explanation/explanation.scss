@@ -1,4 +1,6 @@
 .explanation {
+  position: relative;
+  z-index: 39;
   padding-top: 200px;
   @media (min-width: 1280px) {
     padding-top: 0;

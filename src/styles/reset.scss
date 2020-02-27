@@ -11,9 +11,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
 }
 
-main > section, .header, .footer {
+main, .footer {
   width: 100vw;
   overflow-x: hidden;
+}
+
+.header {
+  width: 100vw;
 }
 
 

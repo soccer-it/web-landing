@@ -6,7 +6,7 @@ import React, { useEffect } from "react"
 
 // Style
 import "./what-to-use.scss"
-import isEven from 'utils/isEven'
+import isEven from "utils/isEven"
 
 const WhatToUse = () => {
   useEffect(() => {
@@ -23,16 +23,11 @@ const WhatToUse = () => {
       })
 
       scene
-        .setTween(window.TweenMax.to(element, 1, { x: isEven(index) ? 300 : -300 }))
-        .addIndicators({ name: "(duration: 500)" })
+        .setTween(
+          window.TweenMax.to(element, 1, { x: isEven(index) ? 300 : -300 })
+        )
         .addTo(controller)
     })
-
-    // const tween2 = window.TweenMax.to("#list2", 1, { x: -100 })
-    // const tween3 = window.TweenMax.to("#list3", 1, { x: 100 })
-    // const tween4 = window.TweenMax.to("#list4", 1, { x: -100 })
-    // const tween5 = window.TweenMax.to("#list5", 1, { x: 100 })
-    // const tween6 = window.TweenMax.to("#list6", 1, { x: -100 })
   }, [])
   return (
     <section className="what-to-use" id="whattouse">
