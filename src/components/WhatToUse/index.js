@@ -83,6 +83,38 @@ const WhatToUse = () => {
           <li className="item">escalação ao vivo</li>
           <li className="item">alertas de transmissão</li>
         </ul>
+        <ul className="list" id="list7">
+          <li className="item">avisos de gol</li>
+          <li className="item">escalação ao vivo</li>
+          <li className="item">alertas de transmissão</li>
+          <li className="item">notícias do seu time</li>
+          <li className="item">curiosidades</li>
+          <li className="item">informações do clube</li>
+        </ul>
+        <ul className="list" id="list8">
+          <li className="item">notícias do seu time</li>
+          <li className="item">curiosidades</li>
+          <li className="item">informações do clube</li>
+          <li className="item">avisos de gol</li>
+          <li className="item">escalação ao vivo</li>
+          <li className="item">alertas de transmissão</li>
+        </ul>
+        <ul className="list" id="list9">
+          <li className="item">venda de ingressos</li>
+          <li className="item">avisos de gol</li>
+          <li className="item">newsletter</li>
+          <li className="item">venda de ingressos</li>
+          <li className="item">avisos de gol</li>
+          <li className="item">newsletter</li>
+        </ul>
+        <ul className="list" id="list10">
+          <li className="item">avisos de gol</li>
+          <li className="item">escalação ao vivo</li>
+          <li className="item">alertas de transmissão</li>
+          <li className="item">venda de ingressos</li>
+          <li className="item">avisos de gol</li>
+          <li className="item">newsletter</li>
+        </ul>
       </div>
     </section>
   )
