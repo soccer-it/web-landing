@@ -46,7 +46,7 @@
     width: 100%;
 
     @media (min-width: 1280px) {
-      padding: 10px 10%;
+      padding: 10px;
     }
     
   }
@@ -72,6 +72,7 @@
       height: auto;
       transform: none;
       flex-shrink: 0;
+      padding: 0;
     }
 
     .list {

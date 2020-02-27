@@ -18,9 +18,7 @@ const Header = ({ toggleMenu, isMenuOpened }) => {
     const scroll = new SmoothScroll()
     toggleMenu(false);
     setTimeout(() => {
-      scroll.animateScroll(element, null, {
-        easing: 'ease'
-      })
+      scroll.animateScroll(element)
     }, 200)
   }
 
