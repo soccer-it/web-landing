@@ -1,0 +1,42 @@
+.explanation {
+  position: relative;
+  z-index: 39;
+  padding-top: 200px;
+  @media (min-width: 1280px) {
+    padding-top: 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    .title {
+      margin: 50px 0px;
+
+      @media (min-width: 1280px) {
+        margin: 200px 0;
+        font-size: 80px;
+        line-height: 90px;
+        padding: 0 300px;
+      }
+    }
+
+    .paragraph {
+      @media (min-width: 1280px) {
+        text-align: left;
+        line-height: 65px;
+        padding: 0 30px;
+      }
+    }
+  }
+
+  .holder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @media (min-width: 1280px) {
+      flex-direction: row;
+      width: 50%;
+      padding: 0px 60px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.hero {
+  padding-bottom: 140px;
+  position: relative;
+  z-index: 40;
+  @media (min-width: 1280px) {
+    padding-bottom: 50px;
+  }
+  .container {
+    .title {
+      color: #008E4C;
+      max-width: 790px;
+      margin: 0px auto 30px;
+      font-weight: 800;
+      font-size: 45px;
+      line-height: 53px;
+      max-width: 350px;
+      padding: 0 20px;
+  
+      strong {
+        color: #07E17B;
+      }
+
+      @media (min-width: 1280px) {
+        font-size: 90px;
+        line-height: 100px;
+        max-width: none;
+        margin: 100px auto 80px;
+        padding: 0;
+      }
+    }
+
+    .image-featured {
+      margin: 0 auto;
+      display: block;
+      width: 212px;
+      max-width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      
+      @media (min-width: 1280px) {
+        position: relative;
+        width: 480px;
+      }
+    }
+
+  }
+}

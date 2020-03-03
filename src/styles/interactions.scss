@@ -1,0 +1,45 @@
+.wrapper {
+  .main,
+  .mobile-nav {
+    transition: transform 0.3s ease;
+  }
+  .header {
+    .list {
+      .item {
+        transform: translateX(-100px);
+        opacity: 0;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+
+        @media (min-width: 1280px) {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @for $i from 1 through 4 {
+        .item:nth-child(1n + #{$i}) {
+          transition-delay: $i * 0.03s;
+        }
+      }
+    }
+  }
+
+  &.--opened {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    .main,
+    .mobile-nav {
+      transform: translateY(400px);
+    }
+
+    .header {
+      .list {
+        .item {
+          transform: translateX(0px);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
