@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "alias": ["soccerit.com.br"],
+  "builds": [{ "src": "./public/**", "use": "@now/static" }],
+  "routes": [{ "src": "/(.*)", "dest": "public/$1" }]
+}
