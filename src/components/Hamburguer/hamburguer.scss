@@ -1,0 +1,43 @@
+.hamburguer {
+  width: 25px;
+  height: 20px;
+  border: none;
+  position: relative;
+  background: linear-gradient(to bottom, black 20%, transparent 20%);
+  background-size: 100% 40%;
+  background-repeat-x: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  transition: background-size 0.2s 0.45s cubic-bezier(0.19, 0.06, 0, 1.02);
+  outline: none;
+}
+.hamburguer:before,
+.hamburguer:after {
+  height: 10%;
+  width: 0;
+  position: absolute;
+  background-color: black;
+  content: "";
+  transform: rotate(0);
+  top: 40%;
+  transition: transform 0.3s cubic-bezier(0.19, 0.06, 0, 1.02), width 0.3s 0.2s cubic-bezier(0.19, 0.06, 0, 1.02);
+}
+.hamburguer:before,
+.hamburguer:after {
+  left: 0;
+}
+.hamburguer.is-active {
+  background-size: 0 40%;
+  transition-delay: 0s;
+}
+.hamburguer.is-active:before,
+.hamburguer.is-active:after {
+  width: 100%;
+  transition: width 0.3s 0.2s cubic-bezier(0.19, 0.06, 0, 1.02), transform 0.3s 0.4s cubic-bezier(0.19, 0.06, 0, 1.02);
+}
+.hamburguer.is-active:before {
+  transform: rotate(-45deg);
+}
+.hamburguer.is-active:after {
+  transform: rotate(45deg);
+}
