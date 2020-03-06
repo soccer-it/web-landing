@@ -1,0 +1,13 @@
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+
+  .title-wrapper {
+    width: 100%;
+    flex-shrink: 0;
+    
+    .title {
+      text-align: center;
+    }
+  }
+}

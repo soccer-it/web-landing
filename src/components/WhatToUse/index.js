@@ -32,7 +32,7 @@ const WhatToUse = () => {
   return (
     <section className="what-to-use" id="whattouse">
       <div className="container">
-        <h1 className="title">recursor disponíveis</h1>
+        <h1 className="title">recursos <br /> disponíveis</h1>
       </div>
       <div id="lists">
         <ul className="list" id="list1">
