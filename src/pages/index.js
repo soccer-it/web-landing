@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import classNames from "classnames"
 
 import Structure from "components/Structure"
@@ -9,9 +9,9 @@ import Headache from "components/Headache"
 import WhatToUse from "components/WhatToUse"
 import Seo from "components/Seo"
 
+
 const Home = () => {
   const [isMenuOpened, setIsMenuOpened] = useState(false)
-  
   
   return (
     <Structure

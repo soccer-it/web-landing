@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import useMouseParallax from "utils/createMouseParallax"
 
 import Typed from "typed.js"
 
@@ -30,14 +31,16 @@ const Hero = () => {
       showCursor: false,
     })
   }, [])
+
+  useMouseParallax(".parallax-hero")
+
   return (
     <section className="hero">
-      <div className="container">
-        <h1 className="title">
-          
-          ser torcedor <br/>é <strong className="featured-text"> </strong>
+      <div className="container parallax-hero">
+        <h1 className="title" data-depth="0.2">
+          ser torcedor <br />é <strong className="featured-text"> </strong>
         </h1>
-        <img src={appImage} className="image-featured" />
+        <img data-depth="0.1" src={appImage} className="image-featured" />
       </div>
     </section>
   )

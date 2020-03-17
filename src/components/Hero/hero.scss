@@ -39,7 +39,7 @@
       right: 0;
       
       @media (min-width: 1280px) {
-        position: relative;
+        position: relative !important;
         width: 480px;
       }
     }
