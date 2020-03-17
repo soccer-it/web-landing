@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import useMouseParallax from "utils/createMouseParallax"
+import useMouseParallax from "utils/useMouseParallax"
 
 import Typed from "typed.js"
 

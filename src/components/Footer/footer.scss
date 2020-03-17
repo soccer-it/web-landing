@@ -20,9 +20,10 @@
 
     .button {
       margin: 0 auto;
-      background-color: #07E17B;
+      background-color: #07e17b;
       color: black;
-      
+      position: relative !important;
+
       .icon {
         border-color: black;
       }

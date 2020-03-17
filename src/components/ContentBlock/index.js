@@ -1,6 +1,7 @@
 import React from "react"
+import classNames from "classnames"
 
-import './content-block.scss'
+import "./content-block.scss"
 
 const mountMarkup = element => {
   return {
@@ -10,10 +11,18 @@ const mountMarkup = element => {
 
 const ContentBlock = ({ title = "", paragraphs = [], customClass = "" }) => {
   return (
-    <div className="content-block">
-      <div className="title-wrapper" dangerouslySetInnerHTML={mountMarkup(title)} />
+    <div
+      className={classNames("content-block", {
+        [customClass]: customClass,
+      })}
+    >
+      <div
+        className="title-wrapper"
+        dangerouslySetInnerHTML={mountMarkup(title)}
+        data-depth="0.1"
+      />
       {paragraphs.map((item, index) => (
-        <div className="holder" key={index}>
+        <div className="holder" data-depth="0.4" key={index}>
           <p className="paragraph">{item}</p>
         </div>
       ))}
