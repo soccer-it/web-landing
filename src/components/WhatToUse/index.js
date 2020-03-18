@@ -6,29 +6,8 @@ import React, { useEffect } from "react"
 
 // Style
 import "./what-to-use.scss"
-import isEven from "utils/isEven"
 
 const WhatToUse = () => {
-  useEffect(() => {
-    const controller = new window.ScrollMagic.Controller()
-    const sectionHeight = document
-      .querySelector("#whattouse")
-      .getBoundingClientRect().height
-    const elements = document.querySelectorAll("#lists .list")
-
-    elements.forEach((element, index) => {
-      const scene = new window.ScrollMagic.Scene({
-        triggerElement: "#whattouse",
-        duration: sectionHeight,
-      })
-
-      scene
-        .setTween(
-          window.TweenMax.to(element, 1, { x: isEven(index) ? 300 : -300 })
-        )
-        .addTo(controller)
-    })
-  }, [])
   return (
     <section className="what-to-use" id="whattouse">
       <div className="container">

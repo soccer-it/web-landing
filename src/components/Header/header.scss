@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   padding: 0;
-  background-color: white;
+  // background-color: white;
   z-index: 10;
 
   @media (min-width: 992px) {
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
+    // background: white;
     position: relative;
     z-index: 81;
     padding: 30px 10%;
@@ -60,14 +60,14 @@
     left: 0;
     right: 0;
     padding: 0 20px;
-    background-color: black;
+    // background-color: black;
     max-height: 90vh;
     transition: transform 0.6s cubic-bezier(0.19, 0.06, 0, 1.02);
 
     @media (min-width: 992px) {
       position: relative;
       display: block;
-      background: white;
+      // background: white;
       width: auto;
       height: auto;
       transform: none;
