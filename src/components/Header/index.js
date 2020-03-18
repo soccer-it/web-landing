@@ -3,9 +3,7 @@
 import React from "react"
 
 // Images
-import Logo from "./logo"
-
-// const isClient = () => !!(window && document)
+import Logo from "components/Logo"
 
 // Styles
 import "./header.scss"

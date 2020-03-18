@@ -6,6 +6,9 @@ import Typed from "typed.js"
 // Style
 import "./hero.scss"
 
+// Components
+import FloatIcons from "components/FloatIcons"
+
 import appImage from "images/appWhite.svg"
 
 const Hero = () => {
@@ -36,11 +39,17 @@ const Hero = () => {
 
   return (
     <section className="hero">
+      <FloatIcons />
       <div className="container parallax-hero">
         <h1 className="title" data-depth="0.2">
           ser torcedor <br />é <strong className="featured-text"> </strong>
         </h1>
-        <img data-depth="0.1" alt="Print of soccerit app" src={appImage} className="image-featured" />
+        <img
+          data-depth="0.1"
+          alt="Print of soccerit app"
+          src={appImage}
+          className="image-featured"
+        />
       </div>
     </section>
   )
