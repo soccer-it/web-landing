@@ -13,7 +13,7 @@
       color: white;
       margin-bottom: 50px;
 
-      @media (min-width: 1280px) {
+      @media (min-width: 992px) {
         margin-bottom: 150px;
       }
     }
@@ -23,9 +23,11 @@
       background-color: #07e17b;
       color: black;
       position: relative !important;
+      display: flex !important;
 
       .icon {
         border-color: black;
+        display: flex;
       }
     }
   }

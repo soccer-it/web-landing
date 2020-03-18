@@ -2,7 +2,7 @@
   padding-bottom: 140px;
   position: relative;
   z-index: 40;
-  @media (min-width: 1280px) {
+  @media (min-width: 992px) {
     padding-bottom: 50px;
   }
   .container {
@@ -20,7 +20,7 @@
         color: #07E17B;
       }
 
-      @media (min-width: 1280px) {
+      @media (min-width: 992px) {
         font-size: 90px;
         line-height: 100px;
         max-width: none;
@@ -38,7 +38,7 @@
       left: 0;
       right: 0;
       
-      @media (min-width: 1280px) {
+      @media (min-width: 992px) {
         position: relative !important;
         width: 480px;
       }

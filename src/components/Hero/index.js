@@ -40,7 +40,7 @@ const Hero = () => {
         <h1 className="title" data-depth="0.2">
           ser torcedor <br />é <strong className="featured-text"> </strong>
         </h1>
-        <img data-depth="0.1" src={appImage} className="image-featured" />
+        <img data-depth="0.1" alt="Print of soccerit app" src={appImage} className="image-featured" />
       </div>
     </section>
   )
