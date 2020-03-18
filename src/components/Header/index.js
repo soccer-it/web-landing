@@ -3,7 +3,7 @@
 import React from "react"
 
 // Images
-import logoImg from "images/logo.svg"
+import Logo from "./logo"
 
 // const isClient = () => !!(window && document)
 
@@ -29,7 +29,8 @@ const Header = ({ toggleMenu, isMenuOpened }) => {
     <header className="header">
       <div className="container">
         <div className="mobile-nav">
-          <img src={logoImg} alt="Logo Soccerit" className="logo" />
+          <Logo />
+          {/* <img src={logoImg} alt="Logo Soccerit" className="logo" /> */}
           <Hamburguer toggleMenu={toggleMenu} isMenuOpened={isMenuOpened} />
         </div>
         <nav className="nav">
