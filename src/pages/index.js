@@ -9,6 +9,7 @@ import Headache from "components/Headache"
 import WhatToUse from "components/WhatToUse"
 import Seo from "components/Seo"
 
+// Utils
 import isEven from "utils/isEven"
 
 
