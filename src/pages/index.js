@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import classNames from "classnames"
+import Scrollbar from "smooth-scrollbar"
 
 import Structure from "components/Structure"
 import Hero from "components/Hero"
@@ -12,11 +13,13 @@ import Seo from "components/Seo"
 // Utils
 import isEven from "utils/isEven"
 
-
 const Home = () => {
   const [isMenuOpened, setIsMenuOpened] = useState(false)
   useEffect(() => {
-    const controller = new window.ScrollMagic.Controller()
+    let scenes = []
+    const controller = new window.ScrollMagic.Controller({
+      refreshInterval: 0,
+    })
     const sectionHeight = document
       .querySelector("#whattouse")
       .getBoundingClientRect().height
@@ -27,6 +30,7 @@ const Home = () => {
         triggerElement: "#whattouse",
         duration: sectionHeight,
       })
+      scenes.push(scene)
 
       scene
         .setTween(
@@ -34,8 +38,26 @@ const Home = () => {
         )
         .addTo(controller)
     })
+
+    const scrollbar = Scrollbar.init(
+      document.querySelector("#gatsby-focus-wrapper .wrapper"),
+      {
+        damping: 0.1,
+        thumbMinSize: 20,
+        renderByPixels: true,
+        alwaysShowTracks: false,
+        continuousScrolling: true,
+      }
+    )
+
+    // add listener to refresh the scene manually
+    scrollbar.addListener(() => {
+      scenes.forEach(item => {
+        item.refresh()
+      })
+    })
   }, [])
-  
+
   return (
     <Structure
       className={classNames("wrapper", {
