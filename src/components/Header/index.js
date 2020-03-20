@@ -40,7 +40,7 @@ const Header = ({ toggleMenu, isMenuOpened }) => {
               <a onClick={e => goTo("#howuse", e)}>como usar</a>
             </li>
             <li className="item">
-              <a onClick={e => goTo("#whattouse", e)}>recursos disponíveis</a>
+              <a onClick={e => goTo("#whattouse", e)}>features</a>
             </li>
             <li className="item">
               <button className="button">

@@ -1,4 +1,22 @@
 .float-icons {
   position: absolute;
   width: 100vw;
+
+  
+
+  @for $i from 1 through 20 {
+    > g:nth-child(2n + #{$i}) {
+      animation: floatIcons ($i) * 5s linear infinite;    
+    }
+  }
+}
+
+@keyframes floatIcons {
+  0% {
+    transform: translateY(100%)
+  }
+
+  100% {
+    transform: translateY(-160%)
+  }
 }

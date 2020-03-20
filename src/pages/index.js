@@ -50,7 +50,6 @@ const Home = () => {
       }
     )
 
-    // add listener to refresh the scene manually
     scrollbar.addListener(() => {
       scenes.forEach(item => {
         item.refresh()
