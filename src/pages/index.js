@@ -39,7 +39,9 @@ const Home = () => {
         .addTo(controller)
     })
 
-    if (!window) return
+    const isClient = !!window
+
+    if (!isClient) return
 
     const scrollbar = Scrollbar.init(
       document.querySelector("#gatsby-focus-wrapper .wrapper"),
