@@ -1,22 +1,36 @@
 .float-icons {
   position: absolute;
-  width: 100vw;
+  width: 200%;
 
-  
+  @media (min-width: 992px) {
+    width: 100vw;
+  }
 
   @for $i from 1 through 20 {
     > g:nth-child(2n + #{$i}) {
-      animation: floatIcons ($i) * 5s linear infinite;    
+      animation: floatIcons ($i) * 5s linear infinite;
+    }
+  }
+
+  @for $i from 1 through 20 {
+    > g:nth-of-type(2n + #{$i}) {
+      animation: floatIcons ($i) * 10s linear infinite;
+    }
+  }
+
+  @for $j from 1 through 13 {
+    > circle:nth-of-type(1n + #{$j}) {
+      animation: floatIcons ($j) * 5s linear infinite;
     }
   }
 }
 
 @keyframes floatIcons {
   0% {
-    transform: translateY(100%)
+    transform: translateY(100%);
   }
 
   100% {
-    transform: translateY(-160%)
+    transform: translateY(-160%);
   }
 }
