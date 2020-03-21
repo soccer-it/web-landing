@@ -6,11 +6,6 @@
     width: 100vw;
   }
 
-  @for $i from 1 through 20 {
-    > g:nth-child(2n + #{$i}) {
-      animation: floatIcons ($i) * 5s linear infinite;
-    }
-  }
 
   @for $i from 1 through 20 {
     > g:nth-of-type(2n + #{$i}) {
