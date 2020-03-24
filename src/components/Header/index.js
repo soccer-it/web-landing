@@ -44,7 +44,7 @@ const Header = ({ toggleMenu, isMenuOpened }) => {
             </li>
             <li className="item">
               <button className="button">
-                quero experimentar
+                <p className="text">quero experimentar</p>
                 <span className="icon arrow-right"></span>
               </button>
             </li>
