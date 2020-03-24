@@ -2,7 +2,8 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  
+  width: 100vw;
+  overflow: hidden;
 }
 body {
   margin: 0;
@@ -11,7 +12,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
 }
 
-main, .footer {
+main,
+.footer {
   width: 100vw;
   overflow-x: hidden;
 }
@@ -19,7 +21,6 @@ main, .footer {
 .header {
   width: 100vw;
 }
-
 
 article,
 aside,
