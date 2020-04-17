@@ -14,9 +14,7 @@ const HowUse = () => {
         </div>
         <div className="holder">
           <h1 className="subtitle">
-            entre
-            <br />
-            no jogo
+            entre no jogo
           </h1>
           <ul className="list">
             <li className="item">

@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container parallax-footer">
         <h1 className="title" data-depth="0.1">
-          acesse o site e torça conosco
+          acesse o site e <br/> torça conosco
         </h1>
         <button className="button" data-depth="0.2">
           comece agora

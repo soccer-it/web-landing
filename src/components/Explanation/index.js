@@ -16,7 +16,7 @@ const Explanation = () => {
     <section className="explanation background-featured" id="explanation">
       <div className="container">
         <ContentBlock
-          title={`<h1 class="title">feito de torcedor para torcedor</h1>`}
+          title={`<h1 class="title">feito de torcedor <br/> para torcedor</h1>`}
           customClass="parallax-explanation"
           paragraphs={[
             "aqui no soccerit, o clubismo é liberado! Respire o amor pelo seu time em todos os momentos e em qualquer lugar.",

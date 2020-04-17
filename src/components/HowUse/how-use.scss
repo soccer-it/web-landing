@@ -42,12 +42,10 @@
 
       &:first-of-type {
         width: 100%;
-        // padding-right: 50px;
       }
 
       &:last-of-type {
         width: 100%;
-        // padding: 0 50px;
       }
 
       @media (min-width: 992px) {
@@ -85,7 +83,7 @@
 
       @media (min-width: 992px) {
         margin-bottom: 100px;
-        line-height: 70px;
+        line-height: 60px;
         font-size: 60px;
       }
     }
@@ -129,14 +127,14 @@
       @media (min-width: 992px) {
         padding: 0px;
         .item {
-          padding-left: 80px;
+          padding-left: 40px;
           .numeral {
             font-size: 60px;
           }
 
           .paragraph {
-            font-size: 30px;
-            line-height: 40px;
+            font-size: 25px;
+            line-height: 35px;
             width: 90%;
           }
         }
