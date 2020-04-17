@@ -22,12 +22,12 @@ const Layout = ({ children, className, toggleMenu, isMenuOpened }) => {
 
   return (
     <div className={className}>
-      <Header
-        siteTitle={data.site.siteMetadata.title}
-        toggleMenu={toggleMenu}
-        isMenuOpened={isMenuOpened}
-      />
       <div className="main">
+        <Header
+          siteTitle={data.site.siteMetadata.title}
+          toggleMenu={toggleMenu}
+          isMenuOpened={isMenuOpened}
+        />
         <main>{children}</main>
         <Footer />
       </div>

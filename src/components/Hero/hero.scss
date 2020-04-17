@@ -2,11 +2,13 @@
   padding-bottom: 20px;
   position: relative;
   z-index: 40;
-  overflow: hidden;
+  overflow: visible;
   @media (min-width: 992px) {
     padding-bottom: 50px;
   }
   .container {
+    z-index: 30;
+    position: relative;
     .title {
       color: #008E4C;
       max-width: 790px;
@@ -40,7 +42,8 @@
     .image-featured {
       display: block;
       max-width: 100%;
-      width: 100%;
+      width: 50%;
+      margin: 0 auto;
       transform: scale(1.01);
       
       @media (min-width: 992px) {

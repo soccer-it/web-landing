@@ -40,17 +40,12 @@ const Hero = () => {
 
   return (
     <section className="hero">
-      {/* <FloatIcons /> */}
+      <FloatIcons />
       <div className="container parallax-hero">
         <h1 className="title" data-depth="0.2">
           ser torcedor <br />é <strong className="featured-text"> </strong>
         </h1>
         <div className="video-wrapper" data-depth="0.1">
-          {/* <img
-            alt="Print of soccerit app"
-            src={appImage}
-            
-          /> */}
           <video width="100%" height="100%" className="image-featured" preload="auto" loop muted autoPlay playsInline>
             <source src={appVideo} type="video/mp4" />
           </video>
