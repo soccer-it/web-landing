@@ -2,8 +2,7 @@
   position: sticky;
   top: 0;
   padding: 0;
-  // background-color: white;
-  background: linear-gradient(0deg, transparent 0%, white 20%, white 100%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, white 20%, white 100%);
   z-index: 10;
 
   @media (min-width: 992px) {
