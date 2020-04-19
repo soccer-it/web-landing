@@ -46,9 +46,22 @@ const Hero = () => {
           ser torcedor <br />é <strong className="featured-text"> </strong>
         </h1>
         <div className="video-wrapper" data-depth="0.1">
-          <video width="100%" height="100%" className="image-featured" preload="auto" loop muted autoPlay playsInline>
-            <source src={appVideo} type="video/mp4" />
-          </video>
+          <div className="phone">
+            <div className="screen">
+              <video
+                width="100%"
+                height="100%"
+                className="image-featured"
+                preload="auto"
+                loop
+                muted
+                autoPlay
+                playsInline
+              >
+                <source src={appVideo} type="video/mp4" />
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </section>
