@@ -41,6 +41,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <FloatIcons />
+      
       <div className="container parallax-hero">
         <h1 className="title" data-depth="0.2">
           ser torcedor <br />é <strong className="featured-text"> </strong>

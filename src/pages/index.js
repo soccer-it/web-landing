@@ -70,6 +70,7 @@ const Home = () => {
       isMenuOpened={isMenuOpened}
     >
       <Seo title="Home" />
+      
       <Hero />
       <Explanation />
       <HowUse />
