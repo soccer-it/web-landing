@@ -5,15 +5,14 @@ import "./how-use.scss"
 
 // Components
 import Button from "components/Button"
-
-import appDark from "images/appDark.svg"
+import Phone from "components/Phone"
 
 const HowUse = () => {
   return (
     <section className="how-use background-featured" id="howuse">
       <div className="container">
         <div className="holder">
-          <img src={appDark} className="image-featured" alt="" />
+          <Phone dark />
         </div>
         <div className="holder">
           <h1 className="subtitle">entre no jogo</h1>
@@ -46,10 +45,6 @@ const HowUse = () => {
       </div>
       <div className="container">
         <Button text="comece a usar" />
-        {/* <button className="button">
-          comece a usar
-          <span className="icon arrow-right"></span>
-        </button> */}
       </div>
       <div className="fans-illustration"></div>
     </section>
