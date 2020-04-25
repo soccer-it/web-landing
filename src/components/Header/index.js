@@ -10,6 +10,7 @@ import "./header.scss"
 
 // Components
 import Hamburguer from "../Hamburguer"
+import Button from 'components/Button'
 
 const Header = ({ toggleMenu, isMenuOpened }) => {
   const goTo = (target, e) => {
@@ -28,7 +29,6 @@ const Header = ({ toggleMenu, isMenuOpened }) => {
       <div className="container">
         <div className="mobile-nav">
           <Logo />
-          {/* <img src={logoImg} alt="Logo Soccerit" className="logo" /> */}
           <Hamburguer toggleMenu={toggleMenu} isMenuOpened={isMenuOpened} />
         </div>
         <nav className="nav">
@@ -43,10 +43,7 @@ const Header = ({ toggleMenu, isMenuOpened }) => {
               <a onClick={e => goTo("#whattouse", e)}>features</a>
             </li>
             <li className="item">
-              <button className="button">
-                <p className="text">quero experimentar</p>
-                <span className="icon arrow-right"></span>
-              </button>
+              <Button text="quero experimentar"/>
             </li>
           </ul>
         </nav>

@@ -3,6 +3,9 @@ import React from "react"
 // Style
 import "./how-use.scss"
 
+// Components
+import Button from "components/Button"
+
 import appDark from "images/appDark.svg"
 
 const HowUse = () => {
@@ -13,9 +16,7 @@ const HowUse = () => {
           <img src={appDark} className="image-featured" alt="" />
         </div>
         <div className="holder">
-          <h1 className="subtitle">
-            entre no jogo
-          </h1>
+          <h1 className="subtitle">entre no jogo</h1>
           <ul className="list">
             <li className="item">
               <strong className="numeral">1</strong>
@@ -44,10 +45,11 @@ const HowUse = () => {
         </div>
       </div>
       <div className="container">
-        <button className="button">
+        <Button text="comece a usar" />
+        {/* <button className="button">
           comece a usar
           <span className="icon arrow-right"></span>
-        </button>
+        </button> */}
       </div>
       <div className="fans-illustration"></div>
     </section>
